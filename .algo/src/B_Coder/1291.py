@@ -1,7 +1,7 @@
 
 # 값 입력
 def calculate(i, l):
-    result = '%2s' % '{}'.format(i*l)
+    result = '%2s' % '3{}'.format(i*l)
     print("{} * {} = {}".format(int(l), int(i), result), end="   ")
 
 while True:
